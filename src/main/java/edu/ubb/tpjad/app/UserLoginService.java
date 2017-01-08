@@ -9,15 +9,15 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import edu.ubb.tpjad.beans.UserServiceBean;
 import edu.ubb.tpjad.entity.User;
+import edu.ubb.tpjad.interfaces.UserService;
 
 @Stateless
 @Path("/login")
 public class UserLoginService {
 	
 	@EJB
-	private UserServiceBean userService;
+	private UserService userService;
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
