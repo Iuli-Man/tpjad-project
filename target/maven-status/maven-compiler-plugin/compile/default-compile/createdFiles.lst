@@ -1,5 +1,0 @@
-edu\ubb\tpjad\entity\User.class
-edu\ubb\tpjad\beans\UserServiceBean.class
-edu\ubb\tpjad\entity\Product.class
-edu\ubb\tpjad\app\UserLoginService.class
-edu\ubb\tpjad\interfaces\UserService.class
