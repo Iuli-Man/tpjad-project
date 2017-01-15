@@ -7,5 +7,7 @@ import edu.ubb.tpjad.entity.Product;
 public interface ProductService {
 	
 	public List<Product> listProducts(Product p);
+	
+	public Product add(Product p);
 
 }

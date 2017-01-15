@@ -27,4 +27,9 @@ public class ProductServiceBean implements ProductService {
 				.getResultList();
 	}
 
+	@Override
+	public Product add(Product p) {
+		return entityManager.merge(p);
+	}
+
 }
